@@ -3,13 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Something</title>
+    <title>8월 1일 도서관에서 JS 소스 테스트</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <!-- greeting -->
+    <form class="js-form form">
+        <input type="text" placeholder="환영합니다~ 이름은요~">
+    </form>
+    <h4 class="js-greetings greetings"></h4>
+
+    <!-- clock -->
     <div class="js-clock">
-        <h1>00:00</h1>
+        <h1></h1>
     </div>
+
+    <!-- toDoList -->
+    <form class="js-toDoForm">
+        <input type="text" placeholder="할 일을 작성하세요~">
+    </form>
+    <ul class="js-toDoList"></ul>
+
+
+    <!-- script문 모음 -->
+    <script src="greeting.js"></script>
     <script src="clock.js"></script>
+    <script src="toDoList.js"></script>
 </body>
 </html>
